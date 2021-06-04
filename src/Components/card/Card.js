@@ -21,7 +21,7 @@ export default function Card() {
             <ul className="profile-social-links">
     
     <li>
-      <a href="www.linkedin.com/in/fjorelo-serjani">
+      <a href="https://www.linkedin.com/in/fjorelo-serjani">
         <img src={linkedin}  alt=" "/>
       </a>
     </li>

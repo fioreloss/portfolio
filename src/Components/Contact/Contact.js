@@ -67,7 +67,7 @@ export default function Contact() {
             <GitHubIcon onClick={()=>window.open('https://github.com/fioreloss','_blank')} style={{ fontSize: 50, paddingRight:"10px"}} />
             <InstagramIcon  style={{ fontSize: 50, paddingRight:"10px" }} onClick={()=>window.open('https://www.instagram.com/fiorelo.serjani/','_blank')}/>
             <FacebookIcon  style={{ fontSize: 50, paddingRight:"10px" }} onClick={()=>window.open('https://www.facebook.com/fiorelo.serjani/','_blank')}/>
-            <LinkedInIcon  style={{ fontSize: 50 }} onClick={()=>window.open('www.linkedin.com/in/fjorelo-serjani','_blank')}/>
+            <LinkedInIcon  style={{ fontSize: 50 }} onClick={()=>window.open('https://www.linkedin.com/in/fjorelo-serjani','_blank')}/>
             
         </ul>
         <hr/>
