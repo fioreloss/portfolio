@@ -34,7 +34,7 @@ export default function About() {
           <div className="desc">
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
-              For the front-end I usually work with React. I also make the web pretty by using Sass,
+              For the front-end I work with React. I also make the web pretty by using Sass,
               CSS and, whenever needed, any of their friends: Bootstrap, Material-Ui etc.
             </p>
             <p>
