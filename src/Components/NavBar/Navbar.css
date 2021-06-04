@@ -1,0 +1,95 @@
+
+.menu{
+	color: rgb(243, 219, 219);
+    width: 120px;
+    padding-left: 20px;
+    height: 100vh;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    border-top-right-radius: 80px;
+	position: fixed;
+	z-index: 100;
+	box-shadow: 0 0 5px 5px #0E86D4;
+
+}
+.menu img{
+	padding-top: 10vh;
+	width: 150px;
+	margin-left: -1.5vw;
+	padding-bottom: 17vh;
+}
+.menu a{
+	
+	font-size: 22px;
+    color: #fff;
+    display: block;
+    padding: 11px;
+    padding-left: 10px;
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+}
+.menu a:hover{
+	color: #3f5efb;
+	background: #67AAF9;
+	outline: none;
+	position: relative;
+	background-color:#67AAF9;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.menu a:hover::after {
+	content: "";
+	position: absolute;
+	background-color: transparent;
+	bottom: 100%;
+	right: 0;
+	height: 35px;
+	width: 35px;
+	border-bottom-right-radius: 0px;
+	
+    }
+.menu a:hover::before {
+		content: "";
+		position: absolute;
+		background-color: transparent;
+		top: 38px;
+		right: 0;
+		height: 35px;
+		width: 35px;
+		border-top-right-radius: 0px;
+		
+	}
+
+
+
+@media screen and (max-width: 1300px){
+	.menu{
+		width: 100px;
+		padding-left:5px;
+
+	}
+	.menu img{
+		width: 120px;
+	}
+	.menu a{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width:590px) {
+	.menu{
+		display:flex;
+		bottom: 0;
+		width: 100vw;
+		height:5%;
+		position: fixed;
+		justify-content: center;
+		
+	}
+	.menu img {
+		display: none;
+	}
+	.menu a{
+		font-size: 12px;
+	}
+	
+}

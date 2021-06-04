@@ -1,0 +1,180 @@
+s#about{
+    height: 180vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    /* background-color: rgb(55, 58, 58); */
+    
+
+}
+.firstsection{
+  display: flex;
+  flex-direction:row ;
+}
+.info{
+  /* flex: 0.4; */
+  width: 60vw;
+  margin-top: 35vh;
+  color: #ddd;
+
+
+    
+}
+.cloud{
+    /* flex: 0.3; */
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+
+}
+#about article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14%;
+  margin-top: 30px;
+  
+}
+
+#about .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about .title h3 {
+  font-size: 2rem;
+}
+
+#about .separator {
+  background: crimson;
+  width: 150px;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+#about .subtitle {
+  font-size: 1rem;
+  text-align: center;
+  color:'#ddd';
+  /* padding-bottom: 1.5rem; */
+}
+
+#about .desc.full {
+  
+  margin-bottom: 1rem;
+}
+
+#about .desc {
+  padding: 2rem;
+  text-align: justify;
+}
+
+@media screen and (max-width:1050px){
+  #about{
+    height: 150vh;
+   
+  }
+}
+@media screen and (max-width: 950px){
+  #about{
+    height: 260vh;
+  }
+  .firstsection{
+    flex-direction: column;
+    margin-left: 20%;
+  }
+  .cloud{
+    display: flex;
+    flex-direction: column;
+    width:60vh;
+    justify-content: left;
+    margin-top: -15%;
+
+  }
+
+}
+@media screen and (max-width: 768px){
+  #about{
+    height: 230vh;
+  }
+  .cloud{
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 730px){
+  #about{
+    height: 290vh;
+  }
+  .cloud{
+    width: 40vh;
+  }
+}
+@media screen and (max-width: 590px){
+  #about{
+    height: 315vh;
+  }
+  .firstsection{
+    margin-left: 2%;
+  }
+  #about .desc {
+    padding: 0;
+
+}
+#about .desc.full{
+  width:80vw;
+}
+#about .desc {
+  padding: 0;
+  width: 80vw;
+}
+.cloud{
+  margin-top:-15vh;
+  width: 70vw;
+}.title{
+  padding-top: 8%;
+}
+#about .separator {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+}
+@media screen and (max-width:420px){
+  #about{
+    height: 340vh;
+  }
+}
+/* @media screen and (max-width: 376px) ,
+       screen and (min-height: 812px) { 
+  /* #about{
+    height: 100vh;
+  } */
+ /* } */ 
+@media screen and (max-width:375px) {
+  #about{
+    height:390vh;
+  }
+  
+}
+
+@media screen and (max-width:360px) {
+  #about{
+    height:420vh;
+  }
+  
+}
+@media screen and (max-width:320px) {
+  #about{
+    height:500vh;
+  }
+  .cloud{
+    margin-bottom: 15vh;
+  }
+  
+}
+

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+.sections{
+        width: 100%;
+        position: relative;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+}
+html{
+    scroll-behavior: smooth;
+}
